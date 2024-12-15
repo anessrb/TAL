@@ -1,0 +1,18 @@
+T1	start 0 0	_START
+T2	end 0 0	_END
+T3	other 0 0	Le
+T4	other 0 0	chien
+T5	other 0 0	regarde
+T6	other 0 0	le
+T7	GN 0 0	chat
+T8	other 0 0	dans
+T9	other 0 0	jardin.
+R1	r_succ Arg1:T_START Arg2:TLe
+R2	r_succ Arg1:TLe Arg2:Tchien
+R3	r_succ Arg1:Tchien Arg2:Tregarde
+R4	r_succ Arg1:Tregarde Arg2:Tle
+R5	r_succ Arg1:Tle Arg2:Tchat
+R6	r_succ Arg1:Tle Arg2:Tjardin.
+R7	r_succ Arg1:Tchat Arg2:Tdans
+R8	r_succ Arg1:Tdans Arg2:Tle
+R9	r_succ Arg1:Tjardin. Arg2:T_END
